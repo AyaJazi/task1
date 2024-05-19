@@ -1,0 +1,47 @@
+/* 
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Poetsen One", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
+
+*/
+.header{
+    position:fixed;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    background: #1c2d61;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    }
+    .header .linksheader{
+        margin-left: 2rem;
+    }
+    .header .linksheader ul li{
+        display: inline;
+        margin: 0.5rem;
+    }
+    .header .linksheader ul li a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: 600;
+        transition: 0.3s ease;
+        font-size: 15px;
+    }
+    .header .linksheader ul li a:hover{
+        color: brown;
+    }
+    .iconangular{
+        margin-right: 2rem;
+        font-weight: 600;
+    }
+    .iconangular a{
+        text-decoration: none;
+        color: whitesmoke;
+        font-size: 15px;
+    }
+    .iconangular .iconangu{
+        color: brown;
+    }
